@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/mid_night_blue"
+    tools:context="com.example.kishluv.tic_tac_toe.HomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:textSize="70sp"
+        android:textColor="@color/white"
+        tools:ignore="UnusedAttribute" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/singleplayer"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/singleplayer"
+        android:layout_marginTop="200dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:background="@color/green_sea"
+        android:onClick="submit"/>
+    <Button
+        android:id="@+id/multiplayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:text="@string/multiplayer"
+        android:background="@color/green_sea"
+        android:onClick="submit"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/setting_vf"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic_Tac_Toe</string>
+    <string name="name">TicTacToe</string>
+    <string name="path">Step towards Renovation</string>
+    <string name="multiplayer">MultiPlayer</string>
+    <string name="singleplayer">SinglePlayer</string>
+
+</resources>
